@@ -5,7 +5,7 @@
   "author": "Joe Hart <joehart42@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./index",
+    "dev": "NODE_ENV=development node ./index",
     "test": "jest"
   },
   "dependencies": {

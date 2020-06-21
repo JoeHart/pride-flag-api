@@ -27,9 +27,13 @@ app.get("/flags/:id", (req, res) => {
 
   const flag = flags.find((r) => String(r.id) === String(id));
   if (flag) {
+    if (process.env.NODE_ENV === "development") {
+      console.log(`🏳️‍🌈 Delivering ${flag.name} Flag!`);
+    }
     res.send(flag);
+    return;
   }
-
+  console.warn(`🏳️‍  Flag ${id} not found!`);
   res.status(404).send("Not found");
 });
 
@@ -38,9 +42,13 @@ app.get("/flags/:id/svg", (req, res) => {
 
   const flag = flags.find((r) => String(r.id) === String(id));
   if (flag) {
+    if (process.env.NODE_ENV === "development") {
+      console.log(`🏳️‍🌈 Delivering ${flag.name} Flag SVG!`);
+    }
     res.send(flag.svg);
+    return;
   }
-
+  console.warn(`🏳️‍  Flag ${id} not found!`);
   res.status(404).send("Not found");
 });
 
