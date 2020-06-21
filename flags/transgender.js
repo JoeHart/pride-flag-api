@@ -1,7 +1,8 @@
 module.exports = {
-  name: "Transexual",
-  id: "transexual",
+  name: "Trangender",
+  id: "trangender",
   year: "1999",
+  emoji: "🏳️‍⚧️",
   colors: [
     {
       name: "light blue",
