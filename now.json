@@ -3,15 +3,14 @@
   "builds": [{ "src": "index.js", "use": "@now/node-server" }],
   "routes": [
     {
-      "src": "/palettes",
+      "src": "/flags",
       "dest": "/index.js",
       "methods": ["GET"]
     },
     {
-      "src": "/palettes/:id",
+      "src": "/flags/:id",
       "dest": "/index.js",
       "methods": ["GET"]
-    },
-    { "src": "/palettes", "dest": "/index.js", "methods": ["POST"] }
+    }
   ]
 }
