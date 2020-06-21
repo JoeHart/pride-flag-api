@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/palettes",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/palettes/:id",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    { "src": "/palettes", "dest": "/index.js", "methods": ["POST"] }
+  ]
+}
