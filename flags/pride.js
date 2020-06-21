@@ -2,6 +2,7 @@ module.exports = {
   name: "Pride",
   id: "pride",
   year: "1979",
+  emoji: "🏳️‍🌈",
   colors: [
     {
       name: "red",
