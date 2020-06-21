@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { flags } = require("./data");
+const { flags } = require("./flags");
 
 const app = express();
 const port = 3000;
