@@ -1,7 +1,6 @@
 {
   "name": "pride-flag-color-api",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Joe Hart <joehart42@outlook.com>",
   "license": "MIT",
   "scripts": {
