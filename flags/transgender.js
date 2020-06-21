@@ -1,5 +1,5 @@
 module.exports = {
-  name: "Trangender",
+  name: "Transgender",
   id: "transgender",
   year: "1999",
   emoji: "🏳️‍⚧️",

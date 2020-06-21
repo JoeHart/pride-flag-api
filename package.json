@@ -5,13 +5,18 @@
   "author": "Joe Hart <joehart42@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development node ./index",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
     "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "jest": "^26.0.1"
