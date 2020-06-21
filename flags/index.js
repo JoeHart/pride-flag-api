@@ -1,5 +1,15 @@
 const pride = require("./pride.js");
 const bisexual = require("./bisexual.js");
 const transexual = require("./transexual.js");
+const asexual = require("./asexual.js");
+const intersex = require("./intersex.js");
+const pansexual = require("./pansexual.js");
 
-module.exports.flags = [pride, bisexual, transexual];
+module.exports.flags = [
+  pride,
+  bisexual,
+  transexual,
+  pansexual,
+  asexual,
+  intersex,
+];
