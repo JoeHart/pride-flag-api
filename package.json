@@ -5,11 +5,15 @@
   "author": "Joe Hart <joehart42@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./index"
+    "dev": "node ./index",
+    "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
