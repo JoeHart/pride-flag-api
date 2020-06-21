@@ -11,6 +11,11 @@
       "src": "/flags/:id",
       "dest": "/index.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/flags/:id/svg",
+      "dest": "/index.js",
+      "methods": ["GET"]
     }
   ]
 }

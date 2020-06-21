@@ -26,9 +26,19 @@ app.get("/flags/:id", (req, res) => {
   const { id } = req.params;
 
   const flag = flags.find((r) => String(r.id) === String(id));
-
   if (flag) {
     res.send(flag);
+  }
+
+  res.status(404).send("Not found");
+});
+
+app.get("/flags/:id/svg", (req, res) => {
+  const { id } = req.params;
+
+  const flag = flags.find((r) => String(r.id) === String(id));
+  if (flag) {
+    res.send(flag.svg);
   }
 
   res.status(404).send("Not found");
