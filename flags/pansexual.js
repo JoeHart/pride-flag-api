@@ -1,4 +1,4 @@
-module.exports = {
+const pansexual = {
   name: "Pansexual",
   id: "pansexual",
   year: "2010",
@@ -22,7 +22,7 @@ module.exports = {
       hexCode: "#ffd800",
       r: 255,
       g: 216,
-      b: 00,
+      b: 0,
     },
     {
       name: "cyan",
@@ -33,3 +33,5 @@ module.exports = {
     },
   ],
 };
+
+export default pansexual;

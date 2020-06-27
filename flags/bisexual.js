@@ -1,4 +1,4 @@
-module.exports = {
+const bisexual = {
   name: "Bisexual",
   id: "bisexual",
   year: "1998",
@@ -35,3 +35,5 @@ module.exports = {
     </g>
   </svg>`,
 };
+
+export default bisexual;

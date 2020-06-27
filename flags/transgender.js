@@ -1,4 +1,4 @@
-module.exports = {
+const transgender = {
   name: "Transgender",
   id: "transgender",
   year: "1999",
@@ -33,3 +33,5 @@ module.exports = {
     <path fill="#FFF" d="M0 192h800v96H0z"/>
   </svg>`,
 };
+
+export default transgender;

@@ -1,4 +1,4 @@
-import { flags } from "../../../../flags";
+import flags from "../../../../flags";
 
 export default (req, res) => {
   const {

@@ -1,12 +1,12 @@
-const pride = require("./pride.js");
-const bisexual = require("./bisexual.js");
-const transgender = require("./transgender.js");
-const asexual = require("./asexual.js");
-const agender = require("./agender.js");
-const intersex = require("./intersex.js");
-const pansexual = require("./pansexual.js");
+import pride from "./pride";
+import bisexual from "./bisexual";
+import transgender from "./transgender";
+import asexual from "./asexual";
+import agender from "./agender";
+import intersex from "./intersex";
+import pansexual from "./pansexual";
 
-module.exports.flags = [
+const flags = [
   pride,
   bisexual,
   transgender,
@@ -15,3 +15,5 @@ module.exports.flags = [
   intersex,
   agender,
 ];
+
+export default flags;

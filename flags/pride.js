@@ -1,4 +1,4 @@
-module.exports = {
+const pride = {
   name: "Pride",
   id: "pride",
   year: "1979",
@@ -56,3 +56,5 @@ module.exports = {
   <rect fill="#e40303" width="777" height="80"/>
 </svg>`,
 };
+
+export default pride;

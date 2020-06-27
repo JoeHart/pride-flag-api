@@ -1,4 +1,4 @@
-module.exports = {
+const asexual = {
   name: "Asexual",
   id: "asexual",
   year: "2010",
@@ -41,3 +41,5 @@ module.exports = {
     },
   ],
 };
+
+export default asexual;

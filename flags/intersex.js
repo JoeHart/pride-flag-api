@@ -1,4 +1,4 @@
-module.exports = {
+const intersex = {
   name: "Intersex",
   id: "intersex",
   year: "2013",
@@ -25,3 +25,5 @@ module.exports = {
     },
   ],
 };
+
+export default intersex;
