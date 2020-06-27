@@ -42,3 +42,5 @@ const aromantic = {
     },
   ],
 };
+
+export default aromantic;

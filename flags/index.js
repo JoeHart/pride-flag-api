@@ -6,6 +6,7 @@ import agender from "./agender";
 import intersex from "./intersex";
 import pansexual from "./pansexual";
 import aromantic from "./aromantic";
+import genderfluid from "./genderfluid";
 
 const flags = [
   pride,
@@ -16,6 +17,7 @@ const flags = [
   intersex,
   agender,
   aromantic,
+  genderfluid,
 ];
 
 export default flags;
