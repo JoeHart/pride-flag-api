@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-  <svg width="35" height="21" viewBox="0 0 35 21" xmlns="http://www.w3.org/2000/svg">
-  <rect width="35" height="21" fill="#8A1E04"/>
-  <rect width="35" height="18" fill="#C54E54"/>
-  <rect width="35" height="15" fill="#E4ACCF"/>
-  <rect width="35" height="12" fill="#EDEDEB"/>
-  <rect width="35" height="09" fill="#D063A6"/>
-  <rect width="35" height="06" fill="#B75592"/>
-  <rect width="35" height="03" fill="#A40061"/>
-  </svg>
+<svg width="35" height="21" xmlns="http://www.w3.org/2000/svg"><path fill="#8A1E04" d="M0 0h35v21H0z"/><path fill="#C54E54" d="M0 0h35v18H0z"/><path fill="#E4ACCF" d="M0 0h35v15H0z"/><path fill="#EDEDEB" d="M0 0h35v12H0z"/><path fill="#D063A6" d="M0 0h35v9H0z"/><path fill="#B75592" d="M0 0h35v6H0z"/><path fill="#A40061" d="M0 0h35v3H0z"/></svg>
