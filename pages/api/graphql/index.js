@@ -39,6 +39,7 @@ export const config = {
 const apolloServer = new ApolloServer({
   typeDefs,
   resolvers,
+  introspection: true,
   playground: true,
 });
 export default apolloServer.createHandler({ path: "/api/graphql" });
