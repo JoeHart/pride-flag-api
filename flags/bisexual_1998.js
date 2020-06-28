@@ -1,3 +1,5 @@
+import svg from "./svg/bisexual_1998.svg";
+
 const bisexual_1998 = {
   name: "Bisexual",
   id: "bisexual_1998",
@@ -26,14 +28,7 @@ const bisexual_1998 = {
       b: 167,
     },
   ],
-  svg: `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-  <svg xmlns="http://www.w3.org/2000/svg" width="800" height="480" viewBox="0 0 800 480">
-    <g fill-rule="evenodd">
-      <rect width="800" height="192" fill="#d60270"/>
-      <rect width="800" height="96" y="192" fill="#9b4f96"/>
-      <rect width="800" height="192" y="288" fill="#0038a8"/>
-    </g>
-  </svg>`,
+  svg,
 };
 
 export default bisexual_1998;

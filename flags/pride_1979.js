@@ -1,3 +1,5 @@
+import svg from "./svg/pride_1979.svg";
+
 const pride_1979 = {
   name: "Pride",
   id: "pride_1979",
@@ -47,14 +49,7 @@ const pride_1979 = {
       b: 134,
     },
   ],
-  svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 777 480">
-  <rect fill="#750787" width="777" height="480"/>
-  <rect fill="#004dff" width="777" height="400"/>
-  <rect fill="#008026" width="777" height="320"/>
-  <rect fill="#ffed00" width="777" height="240"/>
-  <rect fill="#ff8c00" width="777" height="160"/>
-  <rect fill="#e40303" width="777" height="80"/>
-</svg>`,
+  svg,
 };
 
 export default pride_1979;

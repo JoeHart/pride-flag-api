@@ -1,13 +1,10 @@
+import svg from "./svg/intersex_2013.svg";
+
 const intersex_2013 = {
   name: "Intersex",
   id: "intersex_2013",
   year: "2013",
-  svg: `<?xml version="1.0" encoding="UTF-8"?>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-      <path fill="#FFD800" d="M0 0h900v600H0z"/>
-      <circle cx="450" cy="300" r="147" fill="none" stroke-width="50" stroke="#7902aa"/>
-    </svg>
-    `,
+  svg,
   colors: [
     {
       name: "purple",

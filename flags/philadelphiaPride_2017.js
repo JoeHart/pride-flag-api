@@ -1,3 +1,5 @@
+import svg from "./svg/philadelphiaPride_2017.svg";
+
 const philadelphiaPride_2017 = {
   name: "Philadelphia Pride",
   id: "philadelphiaPride_2017",
@@ -60,17 +62,7 @@ const philadelphiaPride_2017 = {
       b: 135,
     },
   ],
-  svg: `
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 777 480">
-  <path fill="#750787" d="M0 0h777v480H0z"/>
-  <path fill="#004DFF" d="M0 0h777v420H0z"/>
-  <path fill="#008026" d="M0 0h777v360H0z"/>
-  <path fill="#FFED00" d="M0 0h777v300H0z"/>
-  <path fill="#FF8C00" d="M0 0h777v240H0z"/>
-  <path fill="#E40303" d="M0 0h777v180H0z"/>
-  <path fill="#784F17" d="M0 0h777v120H0z"/>
-  <path d="M0 0h777v60H0z"/>
-  </svg>`,
+  svg,
 };
 
 export default philadelphiaPride_2017;

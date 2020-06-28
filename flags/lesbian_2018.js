@@ -1,16 +1,10 @@
+import svg from "./svg/lesbian_2018.svg";
+
 const lesbian_2018 = {
   name: "Lesbian",
   id: "lesbian_2018",
   year: "2018",
-  svg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.488 229.658" height="868" width="1302">
-    <path fill="#fff" d="M0 98.425h344.487v32.808H0z"/>
-    <path fill="#ff9a56" d="M0 65.617h344.487v32.808H0z"/>
-    <path fill="#ef7627" d="M0 32.809h344.487v32.808H0z"/>
-    <path fill="#d52d00" d="M0 0h344.487v32.808H0z"/>
-    <path fill="#d162a4" d="M0 131.234h344.488v32.808H0z"/>
-    <path fill="#b55690" d="M0 164.042h344.488v32.808H0z"/>
-    <path fill="#a30262" d="M0 196.85h344.487v32.808H0z"/>
-  </svg>`,
+  svg,
   colors: [
     // I could not find a source for the names of these colours
     // so I have chosen names based on how they same to me.

@@ -1,3 +1,5 @@
+import svg from "./svg/aromantic_2014.svg";
+
 const transgender_1999 = {
   name: "Transgender",
   id: "transgender_1999",
@@ -26,7 +28,7 @@ const transgender_1999 = {
       b: 255,
     },
   ],
-  svg: `<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480"><path fill="#5BCEFA" d="M0 0h800v480H0z"/><path fill="#F5A9B8" d="M0 96h800v288H0z"/><path fill="#FFF" d="M0 192h800v96H0z"/></svg>`,
+  svg,
 };
 
 export default transgender_1999;
