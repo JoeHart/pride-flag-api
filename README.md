@@ -1,5 +1,7 @@
 # 🏳️‍🌈 Pride Flag API
 
+[GitHub Repo](https://github.com/JoeHart/pride-flag-color-api)
+
 This is an API to list data about various LGBTQA+ Pride Flags, delivered as JSON by REST or GraphQL. This isn't an exhaustive list, it's just ones I've added for now. If there are any missing let me know or open a Pull Request 😄
 
 ## Using the API
