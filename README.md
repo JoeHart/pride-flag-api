@@ -88,3 +88,7 @@ This is not a hard and fast system, generally in our community the symbols we us
 ### I would like to help is there anything currently being worked on?
 
 I'm going to keep the Project tab of this GitHub Repo up to date, and also any open issues are free to be had!
+
+## What's that cool font you're using on pride.dev?
+
+It's called Gilbert and it's super cool, you can read more about is on the [font's website](https://www.typewithpride.com/).
