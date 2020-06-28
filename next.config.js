@@ -1,4 +1,3 @@
-const withImages = require("next-images");
 module.exports = {
   target: "serverless",
   webpack: function (config) {
