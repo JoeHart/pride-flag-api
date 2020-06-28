@@ -18,6 +18,61 @@ https://pride.dev/api/graphql
 
 You can view the schema and play with some queries at the [GraphQL Playground](https://pride.dev/api/graphql).
 
+Example Query:
+
+```
+query {
+  flag(id: "transgender_1999") {
+    id
+    name
+    year
+    colors{
+      name
+      r
+      g
+      b
+    }
+    svg
+  }
+}
+
+```
+
+Example Response:
+
+```
+{
+  "data": {
+    "flag": {
+      "id": "transgender_1999",
+      "name": "Transgender",
+      "year": "1999",
+      "colors": [
+        {
+          "name": "light blue",
+          "r": 91,
+          "g": 206,
+          "b": 250
+        },
+        {
+          "name": "pink",
+          "r": 245,
+          "g": 169,
+          "b": 184
+        },
+        {
+          "name": "white",
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "svg": "<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480"><path fill="#5BCEFA" d="M0 0h800v480H0z"/><path fill="#F5A9B8" d="M0 96h800v288H0z"/><path fill="#FFF" d="M0 192h800v96H0z"/></svg>"
+    }
+  }
+}
+```
+
 ### Fetch a Flag:
 
 ```
