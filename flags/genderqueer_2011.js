@@ -1,6 +1,6 @@
-const genderqueer = {
+const genderqueer_2011 = {
   name: "Genderqueer",
-  id: "genderqueer",
+  id: "genderqueer_2011",
   year: "2011",
   svg: `
     <?xml version="1.0" encoding="UTF-8"?>
@@ -35,4 +35,4 @@ const genderqueer = {
   ],
 };
 
-export default genderqueer;
+export default genderqueer_2011;

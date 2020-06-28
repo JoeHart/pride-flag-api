@@ -1,6 +1,6 @@
-const pansexual = {
+const pansexual_2010 = {
   name: "Pansexual",
-  id: "pansexual",
+  id: "pansexual_2010",
   year: "2010",
   svg: `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
@@ -34,4 +34,4 @@ const pansexual = {
   ],
 };
 
-export default pansexual;
+export default pansexual_2010;

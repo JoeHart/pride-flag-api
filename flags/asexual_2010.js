@@ -1,6 +1,6 @@
-const asexual = {
+const asexual_2010 = {
   name: "Asexual",
-  id: "asexual",
+  id: "asexual_2010",
   year: "2010",
   svg: `<?xml version="1.0" standalone="no"?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
@@ -42,4 +42,4 @@ const asexual = {
   ],
 };
 
-export default asexual;
+export default asexual_2010;

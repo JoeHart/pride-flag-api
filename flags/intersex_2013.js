@@ -1,6 +1,6 @@
-const intersex = {
+const intersex_2013 = {
   name: "Intersex",
-  id: "intersex",
+  id: "intersex_2013",
   year: "2013",
   svg: `<?xml version="1.0" encoding="UTF-8"?>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
@@ -26,4 +26,4 @@ const intersex = {
   ],
 };
 
-export default intersex;
+export default intersex_2013;

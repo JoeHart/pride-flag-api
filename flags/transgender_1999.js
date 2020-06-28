@@ -1,6 +1,6 @@
-const transgender = {
+const transgender_1999 = {
   name: "Transgender",
-  id: "transgender",
+  id: "transgender_1999",
   year: "1999",
   emoji: "🏳️‍⚧️",
   colors: [
@@ -34,4 +34,4 @@ const transgender = {
   </svg>`,
 };
 
-export default transgender;
+export default transgender_1999;

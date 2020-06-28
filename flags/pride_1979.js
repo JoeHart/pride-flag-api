@@ -1,6 +1,6 @@
-const pride = {
+const pride_1979 = {
   name: "Pride",
-  id: "pride",
+  id: "pride_1979",
   year: "1979",
   emoji: "🏳️‍🌈",
   colors: [
@@ -57,4 +57,4 @@ const pride = {
 </svg>`,
 };
 
-export default pride;
+export default pride_1979;

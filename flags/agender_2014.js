@@ -1,6 +1,6 @@
-const agender = {
+const agender_2014 = {
   name: "Agender",
-  id: "agender",
+  id: "agender_2014",
   year: "2014",
   svg: `<?xml version="1.0" encoding="UTF-8"?>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
@@ -34,4 +34,4 @@ const agender = {
   ],
 };
 
-export default agender;
+export default agender_2014;

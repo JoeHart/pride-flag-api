@@ -1,6 +1,6 @@
-const bisexual = {
+const bisexual_1998 = {
   name: "Bisexual",
-  id: "bisexual",
+  id: "bisexual_1998",
   year: "1998",
   emoji: "🏳⚥",
   colors: [
@@ -36,4 +36,4 @@ const bisexual = {
   </svg>`,
 };
 
-export default bisexual;
+export default bisexual_1998;
