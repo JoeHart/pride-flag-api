@@ -3,4 +3,5 @@
     <path d="M0 90v30h400V60H0v30" fill="#fff"/>
     <path d="M0 30v30h400V0H0v30" fill="#fcf434"/>
     <path d="M0 210v30h400v-60H0v30" fill="#2c2c2c"/>
+    </g>
     </svg>
