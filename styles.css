@@ -25,6 +25,7 @@ pre {
   padding: 1em;
   border-radius: 0.5em;
   border: 1px solid #ccc;
+  overflow: auto;
 }
 
 /* Rainbow underline from here: https://codepen.io/cssparadise/pen/ExxayxM */
