@@ -1,16 +1,10 @@
+import svg from "./svg/genderfluid_2012.svg";
+
 const genderfluid_2012 = {
   name: "Genderfluid",
   id: "genderfluid_2012",
   year: "2012",
-  svg: `<?xml version="1.0" standalone="no"?>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
-    <path fill="#333ebd" d="M0 0h800v480H0z"/>
-    <path d="M0 0h800v384H0z"/>
-    <path fill="#be18d6" d="M0 0h800v288H0z"/>
-    <path fill="#fff" d="M0 0h800v192H0z"/>
-    <path fill="#ff75a2" d="M0 0h800v96H0z"/>
-  </svg>  
-      `,
+  svg,
   colors: [
     {
       name: "blue",

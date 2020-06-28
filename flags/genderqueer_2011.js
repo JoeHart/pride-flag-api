@@ -1,15 +1,10 @@
+import svg from "./svg/genderqueer_2011.svg";
+
 const genderqueer_2011 = {
   name: "Genderqueer",
   id: "genderqueer_2011",
   year: "2011",
-  svg: `
-    <?xml version="1.0" encoding="UTF-8"?>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
-      <path fill="#4a8123" d="M0 0h800v480H0z"/>
-      <path fill="#fff" d="M0 0h800v320H0z"/>
-      <path fill="#b57edc" d="M0 0h800v160H0z"/>
-    </svg>
-    `,
+  svg,
   colors: [
     {
       name: "white",

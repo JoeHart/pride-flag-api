@@ -1,15 +1,10 @@
+import svg from "./svg/nonbinary_2014.svg";
+
 const nonbinary_2014 = {
   name: "Nonbinary",
   id: "nonbinary_2014",
   year: "2019",
-  svg: `
-    <svg xmlns="http://www.w3.org/2000/svg" width="400" height="240"><g fill-rule="evenodd">
-    <path d="M0 150v30h400v-60H0v30" fill="#9c5cd4"/>
-    <path d="M0 90v30h400V60H0v30" fill="#fff"/>
-    <path d="M0 30v30h400V0H0v30" fill="#fcf434"/>
-    <path d="M0 210v30h400v-60H0v30" fill="#2c2c2c"/>
-    </svg>
-        `,
+  svg,
   colors: [
     {
       name: "purple",

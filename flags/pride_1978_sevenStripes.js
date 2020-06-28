@@ -1,3 +1,5 @@
+import svg from "./svg/pride_1978_sevenStripes.svg";
+
 const pride_1978_sevenStripes = {
   name: "Pride",
   id: "pride_1978_sevenStripes",
@@ -53,16 +55,7 @@ const pride_1978_sevenStripes = {
       b: 142,
     },
   ],
-  svg: `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 575 350">
-    <path fill="#8e008e" d="M0 0h600v350H0z"/>
-    <path fill="#400098" d="M0 0h600v300H0z"/>
-    <path fill="#00c0c0" d="M0 0h600v250H0z"/>
-    <path fill="#008e00" d="M0 0h600v200H0z"/>
-    <path fill="#ff0" d="M0 0h600v150H0z"/>
-    <path fill="#ff8e00" d="M0 0h600v100H0z"/>
-    <path fill="red" d="M0 0h600v50H0z"/>
-    </svg>`,
+  svg,
 };
 
 export default pride_1978_sevenStripes;
