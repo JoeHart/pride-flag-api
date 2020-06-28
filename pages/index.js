@@ -1,10 +1,7 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
+import Readme from "../README.md";
 
 export default function Index() {
-  return (
-    <div>
-      <h1>🏳️‍🌈 Pride Flag API</h1>
-      <p>This is an API to get colours and svgs of pride flags</p>
-    </div>
-  );
+  return <ReactMarkdown source={Readme} />;
 }
