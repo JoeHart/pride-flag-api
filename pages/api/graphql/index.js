@@ -1,6 +1,7 @@
 import { ApolloServer, gql } from "apollo-server-micro";
 import * as queryResolvers from "./queryResolvers";
 import base64 from "Base64";
+
 const typeDefs = gql`
   type Query {
     flag(id: String!): Flag!
@@ -53,5 +54,9 @@ const apolloServer = new ApolloServer({
   resolvers,
   introspection: true,
   playground: true,
+  cors: true,
 });
-export default apolloServer.createHandler({ path: "/api/graphql" });
+
+const handler = apolloServer.createHandler({ path: "/api/graphql" });
+
+export default handler;
