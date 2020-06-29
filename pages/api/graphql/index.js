@@ -18,7 +18,7 @@ const typeDefs = gql`
     id: ID!
     name: String!
     year: String!
-    emoji: String!
+    emoji: String
     colors: [Color!]!
     svg: String!
   }
