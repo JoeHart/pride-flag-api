@@ -3,7 +3,7 @@ import { useQuery } from "urql";
 import { withUrqlClient } from "next-urql";
 import FlagCard from "../../components/FlagCard";
 import styled from "styled-components";
-import { ALL_FLAGS } from "./graphql";
+import ALL_FLAGS from "../../graphql/allFlags";
 
 const FlagContainer = styled.div`
   display: grid;

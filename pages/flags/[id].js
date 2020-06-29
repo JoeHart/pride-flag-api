@@ -1,7 +1,7 @@
 import React from "react";
 import { useQuery } from "urql";
 import { withUrqlClient } from "next-urql";
-import { FLAG } from "./graphql";
+import FLAG from "../../graphql/flag";
 import FlagCard from "../../components/FlagCard";
 import { useRouter } from "next/router";
 
