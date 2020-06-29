@@ -38,7 +38,7 @@ const BrowseFlags = () => {
 
 export default withUrqlClient(
   () => ({
-    url: "http://localhost:3000/api/graphql",
+    url: "/api/graphql",
     fetchOptions: {
       mode: "cors", // no-cors, cors, *same-origin
     },
