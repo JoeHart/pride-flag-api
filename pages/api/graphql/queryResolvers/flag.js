@@ -1,4 +1,4 @@
-import flags from "../../../../flags";
+import flags from "../../../../data/flags";
 
 export default function flag(parent, args, context) {
   const { id } = args;

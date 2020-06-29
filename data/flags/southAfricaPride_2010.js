@@ -1,7 +1,7 @@
 import svg from "./svg/southAfricaPride_2010.svg";
 
 const southAfricaPride_2010 = {
-  name: "Philadelphia Pride",
+  name: "South African Pride",
   id: "southAfricaPride_2010",
   year: "2010",
   colors: [
