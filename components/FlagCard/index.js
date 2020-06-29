@@ -18,12 +18,12 @@ const FlagContainer = styled.div`
   max-height: 10em;
   flex-grow: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
 `;
 
 const FlagName = styled.h2`
   margin: 0.5em 0 0 0;
+  font-size: 1.2em;
 `;
 export default function FlagCard({ id, name, svgBase64, year, colors }) {
   return (
