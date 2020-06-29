@@ -4,7 +4,7 @@ import { withUrqlClient } from "next-urql";
 import FlagCard from "../../components/FlagCard";
 import styled from "styled-components";
 import ALL_FLAGS from "../../graphql/allFlags";
-
+import Head from "next/head";
 const FlagContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -39,12 +39,17 @@ const BrowseFlags = () => {
 
   return (
     <div>
-      <h2>Browse Flags</h2>
-      <FlagContainer>
-        {data.allFlags.map((flag) => {
-          return <FlagCard {...flag} />;
-        })}
-      </FlagContainer>
+      <Head>
+        <title>🏳️‍🌈 Pride Flag API - Browse Flags</title>
+      </Head>
+      <div>
+        <h2>Browse Flags</h2>
+        <FlagContainer>
+          {data.allFlags.map((flag) => {
+            return <FlagCard {...flag} />;
+          })}
+        </FlagContainer>
+      </div>
     </div>
   );
 };
