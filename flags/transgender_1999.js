@@ -1,4 +1,4 @@
-import svg from "./svg/aromantic_2014.svg";
+import svg from "./svg/transgender_1999.svg";
 
 const transgender_1999 = {
   name: "Transgender",
