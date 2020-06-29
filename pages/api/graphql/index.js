@@ -1,5 +1,6 @@
 import { ApolloServer, gql } from "apollo-server-micro";
 import * as queryResolvers from "./queryResolvers";
+import base64 from "Base64";
 const typeDefs = gql`
   type Query {
     flag(id: String!): Flag!
@@ -21,12 +22,23 @@ const typeDefs = gql`
     emoji: String
     colors: [Color!]!
     svg: String!
+    svgBase64: String!
+    svgUrl: String!
   }
 `;
 
 const resolvers = {
   Query: {
     ...queryResolvers,
+  },
+  Flag: {
+    svgUrl: (parent) => {
+      return `https://pride.dev/api/flags/${parent.id}/SVG`;
+    },
+    svgBase64: (parent) => {
+      const base64Data = base64.btoa(parent.svg);
+      return "data:image/svg+xml;base64," + base64Data;
+    },
   },
 };
 
