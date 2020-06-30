@@ -20,7 +20,7 @@ You can view the schema and play with some queries at the [GraphQL Playground](h
 
 Example Query:
 
-```
+```GraphQL
 query {
   flag(id: "transgender_1999") {
     id
@@ -32,7 +32,7 @@ query {
       g
       b
     }
-    svg
+    svgBase64
   }
 }
 
@@ -40,7 +40,7 @@ query {
 
 Example Response:
 
-```
+```JSON
 {
   "data": {
     "flag": {
@@ -67,13 +67,15 @@ Example Response:
           "b": 255
         }
       ],
-      "svg": "<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480"><path fill="#5BCEFA" d="M0 0h800v480H0z"/><path fill="#F5A9B8" d="M0 96h800v288H0z"/><path fill="#FFF" d="M0 192h800v96H0z"/></svg>"
+      "svgBase64": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MDAgNDgwIj48cGF0aCBmaWxsPSIjNUJDRUZBIiBkPSJNMCAwaDgwMHY0ODBIMHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRjVBOUI4IiBkPSJNMCA5Nmg4MDB2Mjg4SDB6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTAgMTkyaDgwMHY5NkgweiI+PC9wYXRoPjwvc3ZnPg=="
     }
   }
 }
 ```
 
-### Fetch a Flag:
+### REST API
+
+#### Fetch a Flag:
 
 ```
 https://pride.dev/api/flags/${id}
@@ -81,7 +83,30 @@ https://pride.dev/api/flags/${id}
 
 This will return the JSON object of the flag specified.
 
-### Fetch a Flag's SVG
+Example Request:
+
+```
+https://pride.dev/api/flags/transgender_1999
+```
+
+Example Response:
+
+```JSON
+{
+  "name": "Transgender",
+  "id": "transgender_1999",
+  "year": "1999",
+  "emoji": "🏳️‍⚧️",
+  "colors": [
+    { "name": "light blue", "hexCode": "#5BCEFA", "r": 91, "g": 206, "b": 250 },
+    { "name": "pink", "hexCode": "#F5A9B8", "r": 245, "g": 169, "b": 184 },
+    { "name": "white", "hexCode": "#FFF", "r": 255, "g": 255, "b": 255 }
+  ],
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 480\"><path fill=\"#5BCEFA\" d=\"M0 0h800v480H0z\"></path><path fill=\"#F5A9B8\" d=\"M0 96h800v288H0z\"></path><path fill=\"#FFF\" d=\"M0 192h800v96H0z\"></path></svg>"
+}
+```
+
+#### Fetch a Flag's SVG
 
 ```
 https://pride.dev/api/flags/${id}/SVG
@@ -89,7 +114,19 @@ https://pride.dev/api/flags/${id}/SVG
 
 This will return the SVG of the flag specified.
 
-### Fetch all flags
+Example Request:
+
+```
+https://pride.dev/api/flags/transgender_1999/SVG
+```
+
+Example Response:
+
+```XML
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480"><path fill="#5BCEFA" d="M0 0h800v480H0z"></path><path fill="#F5A9B8" d="M0 96h800v288H0z"></path><path fill="#FFF" d="M0 192h800v96H0z"></path></svg>
+```
+
+#### Fetch all flags
 
 ```
 https://pride.dev/api/flags
@@ -97,7 +134,7 @@ https://pride.dev/api/flags
 
 This will return all flags specified.
 
-### Search flags
+#### Search flags
 
 ```
 https://pride.dev/api/flags?search=trans
