@@ -1,7 +1,7 @@
 import svg from "./svg/polysexual_2012.svg";
 
 const polysexual_2012 = {
-  name: "Nonbinary",
+  name: "Polysexual",
   id: "polysexual_2012",
   year: "2019",
   svg,
