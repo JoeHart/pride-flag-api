@@ -3,11 +3,7 @@ import styled from "styled-components";
 
 const FlagImage = styled.img`
   max-width: 100%;
-
   box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.35);
-  @media only screen and (min-width: 531px) {
-    max-height: 10em;
-  }
 `;
 
 const Card = styled.div`
@@ -17,9 +13,6 @@ const Card = styled.div`
 `;
 
 const FlagContainer = styled.div`
-  @media only screen and (min-width: 531px) {
-    max-height: 10em;
-  }
   flex-grow: 1;
   display: flex;
   align-items: center;

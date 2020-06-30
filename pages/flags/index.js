@@ -7,7 +7,7 @@ import ALL_FLAGS from "../../graphql/allFlags";
 import Head from "next/head";
 const FlagContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 1em;
 `;
 const BrowseFlags = () => {
