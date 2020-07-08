@@ -8,16 +8,16 @@ export default async function svgToAscii(flagId, width) {
   ascii.Image.Color.isTrueColor = true;
   console.error(process.cwd());
   console.error(`${process.cwd()}/data/flags/svg/${flagId}.svg`);
-  try{
-  const image = await ascii.Image.create({
-    filepath: `${process.cwd()}/data/flags/svg/${flagId}.svg`,
-    width: width != null ? parseInt(width) : DEFAULT_FLAG_WIDTH,
-    alphabet: "solid",
-    background: true,
-  });
+  try {
+    const image = await ascii.Image.create({
+      filepath: `${process.cwd()}/data/flags/svg/${flagId}.svg`,
+      width: width != null ? parseInt(width) : DEFAULT_FLAG_WIDTH,
+      alphabet: "solid",
+      background: true,
+    });
 
-  return image;
-} catche(e){
-  return {error: e, path: `${process.cwd()}/data/flags/svg/${flagId}.svg`}
-}
+    return image;
+  } catch (e) {
+    return { error: e, path: `${process.cwd()}/data/flags/svg/${flagId}.svg` };
+  }
 }
