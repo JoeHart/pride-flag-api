@@ -1,5 +1,30 @@
 # Contributing
 
+## Developing Locally
+
+To check your changes to see if they work without any errors you should run the code locally to do this:
+
+1. (Clone the repo)[#cloning-the-repo]
+2. Navigate to the code folder `cd pride-flag-api` or wherever you have cloned the repo to.
+3. Install the dependancies by running `yarn` (You can (install Yarn here)[https://desktop.github.com/])
+4. Run in developer mode `yarn dev`
+5. Open the app in `http://localhost:3000` 🎉
+
+## Cloning the Repo
+
+Before you can start editing the code and adding a flag, you need to get the source code onto your machine. You can copy the code from this repository to your computer by cloning the repo. This can either be done on the commandline or using the Github Desktop application.
+
+### Cloning with the Command Line
+
+1. Open your terminal
+2. Run this command `git clone git@github.com:JoeHart/pride-flag-api.git`
+3. This will create a folder called `pride-flag-api`
+
+### Cloning with Github Desktop
+
+1. Install (Github Desktop)[https://desktop.github.com/]
+2. Follow (these instructions)[https://docs.github.com/en/desktop/contributing-to-projects/cloning-and-forking-repositories-from-github-desktop]
+
 ## Adding flags
 
 Flags are stored in the `flags` folder. Follow these steps to add a new one:
