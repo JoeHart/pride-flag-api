@@ -1,6 +1,6 @@
 import flags from "../../../../data/flags";
 // import svgToAscii from "../../../../utils/svgToAscii";
-import ascii from "ascii-art";
+import Image from "ascii-art-image";
 
 export default async (req, res) => {
   const {
