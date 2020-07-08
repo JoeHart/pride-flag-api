@@ -156,32 +156,7 @@ Hi I'm [Joe Hart](https://www.joehart.co.uk) 👋. You can find me on [twitter](
 
 ## Contributing
 
-### Adding flags
-
-Flags are stored in the `flags` folder. To add a new one simply:
-
-1. Create a new js file with the id of the flag `flagid.js`
-2. Fill the flag out with it's info.
-3. Add the flag to the `flags/index.js` file
-4. Raise a PR for adding the flag
-
-### Choosing an ID for a Flag
-
-This is the current model I'm using, this can change in the future but it seems to work for now, the general idea is all IDs follow this format:
-
-```
-FLAGNAME_FLAGYEAR_MODIFIER
-```
-
-Generally `FLAGNAME` should be what the flag is most commonly referred to. and `FLAGYEAR` should be when the flag is generally agreed to have gotten usage online or in the physical world.
-
-The third part `MODIFIER` is optional, currently it is only used to distinguish between the 8 and 7 striped versions of Gilbert Baker's original Pride flags. The idea is if there are two flags with the same name from the same year, the modifier should be the most easily understandable property to set them apart from each other.
-
-This is not a hard and fast system, generally in our community the symbols we use are fluid and dynamic so I want to avoid being too strict with how to define them.
-
-### I would like to help is there anything currently being worked on?
-
-I'm going to keep the Project tab of this GitHub Repo up to date, and also any open issues are free to be had!
+Checkout our [contributing guidelines](https://github.com/JoeHart/pride-flag-api/blob/master/CONTRIBUTING.md).
 
 ## What's that cool font you're using on pride.dev?
 
