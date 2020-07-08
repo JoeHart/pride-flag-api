@@ -4,9 +4,9 @@
 
 To check your changes to see if they work without any errors you should run the code locally to do this:
 
-1. (Clone the repo)[#cloning-the-repo]
+1. [Clone the repo](#cloning-the-repo)
 2. Navigate to the code folder `cd pride-flag-api` or wherever you have cloned the repo to.
-3. Install the dependancies by running `yarn` (You can (install Yarn here)[https://desktop.github.com/])
+3. Install the dependancies by running `yarn` [You can (install Yarn here](https://desktop.github.com/)
 4. Run in developer mode `yarn dev`
 5. Open the app in `http://localhost:3000` 🎉
 
