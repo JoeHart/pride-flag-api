@@ -6,6 +6,8 @@ export default async function svgToAscii(flagId, width) {
   // Required to render the ascii flags in truecolor
   ascii.Image.Color.is256 = true;
   ascii.Image.Color.isTrueColor = true;
+  console.log(process.cwd());
+  console.log(`${process.cwd()}/data/flags/svg/${flagId}.svg`);
 
   const image = await ascii.Image.create({
     filepath: `${process.cwd()}/data/flags/svg/${flagId}.svg`,
