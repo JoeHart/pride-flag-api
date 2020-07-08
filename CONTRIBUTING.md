@@ -2,10 +2,10 @@
 
 ## Adding flags
 
-Flags are stored in the `flags` folder. To add a new one simply:
+Flags are stored in the `flags` folder. Follow these steps to add a new one:
 
-1. Create a new js file with the id of the flag `flagid.js`
-2. Fill the flag out with it's info.
+1. Create a new js file in the `data/flags` folder with the [id of the flag](#choosing-an-id-for-a-flag): `flagid.js`
+2. Fill the file out with the flag's info. You can use the format of [`pride_1978_sevenStripes.js`](./data/flags/pride_1978_sevenStripes.js) as a reference.
 3. Add the flag to the `flags/index.js` file.
 4. Add the flag svg file to `flags/svg` folder. Generally I source the SVGs from wikipedia, if you need any help creating them feel free to message me on [Twitter](https://twitter.com/joehart).
 5. Then import the svg to the `flagid.js` file.
