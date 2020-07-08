@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/flags/**/*.js": {
+    "pages/api/flags/[id]/ascii.js": {
       "includeFiles": "data/**"
     }
   }
