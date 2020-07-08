@@ -1,6 +1,5 @@
 import flags from "../../../../data/flags";
 import svgToAscii from "../../../../utils/svgToAscii";
-import path from "path";
 
 export default async (req, res) => {
   const {
@@ -27,8 +26,9 @@ export default async (req, res) => {
       res.end(image.toString());
       return;
     } catch (e) {
-      res.statusCode = 500;
+      res.statusCode = 200;
       res.end(e);
+      return;
     }
   }
   console.warn(`🏳️‍  Flag ${id} not found!`);
