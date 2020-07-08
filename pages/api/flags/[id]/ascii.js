@@ -1,5 +1,5 @@
 import flags from "../../../../data/flags";
-import svgToAscii from "../../../../utils/svgToAscii";
+// import svgToAscii from "../../../../utils/svgToAscii";
 
 export default async (req, res) => {
   const {
