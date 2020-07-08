@@ -18,6 +18,9 @@ export default async function svgToAscii(flagId, width) {
 
     return image;
   } catch (e) {
-    return { error: e, path: `${process.cwd()}/data/flags/svg/${flagId}.svg` };
+    throw new Error({
+      error: e,
+      path: `${process.cwd()}/data/flags/svg/${flagId}.svg`,
+    });
   }
 }
