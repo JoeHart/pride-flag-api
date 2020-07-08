@@ -10,20 +10,20 @@ export default async (req, res) => {
 
   if (flag) {
     try {
-      const image = await svgToAscii(flag.id, width);
-      if (process.env.NODE_ENV === "development") {
-        console.log(
-          `${flag.emoji != null ? flag.emoji : "🏳️‍🌈"} Delivering ${
-            flag.name
-          } Flag ASCII ART!`
-        );
-        console.log(image.toString());
-      }
+      // const image = await svgToAscii(flag.id, width);
+      // if (process.env.NODE_ENV === "development") {
+      //   console.log(
+      //     `${flag.emoji != null ? flag.emoji : "🏳️‍🌈"} Delivering ${
+      //       flag.name
+      //     } Flag ASCII ART!`
+      //   );
+      //   console.log(image.toString());
+      // }
 
       res.statusCode = 200;
       res.setHeader("Content-Type", "text/plain; charset=us-ascii");
       res.setHeader("Vary", "Accept-Encoding");
-      res.end(image.toString());
+      res.end("image.toString()");
       return;
     } catch (e) {
       res.statusCode = 200;
