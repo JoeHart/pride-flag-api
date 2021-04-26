@@ -5965,6 +5965,11 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+next-plausible@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/next-plausible/-/next-plausible-1.6.1.tgz#0346a254c73fdac5bf3ac3f06f0028fede782c5a"
+  integrity sha512-eMVqZbzU6bJsBIHlC63lNKl0KLvx8NA+/YlUUqj2gvCviQ7C2X4PY59gEB+mO46JvKSy/IhAD8l85/YGFhCkDg==
+
 next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"

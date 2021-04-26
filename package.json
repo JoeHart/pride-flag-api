@@ -17,6 +17,7 @@
     "express": "^4.17.1",
     "graphql": "^15.1.0",
     "next": "^9.4.4",
+    "next-plausible": "^1.6.1",
     "next-urql": "https://pkg.csb.dev/FormidableLabs/urql/commit/52ae6e87/next-urql",
     "raw-loader": "^4.0.1",
     "react": "^16.13.1",
