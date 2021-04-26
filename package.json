@@ -19,6 +19,7 @@
     "next": "^9.4.4",
     "next-plausible": "^1.6.1",
     "next-urql": "https://pkg.csb.dev/FormidableLabs/urql/commit/52ae6e87/next-urql",
+    "plausible-tracker": "^0.3.1",
     "raw-loader": "^4.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
