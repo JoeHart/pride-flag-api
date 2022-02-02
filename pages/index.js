@@ -15,7 +15,7 @@ export default function Index() {
       <Head>
         <title>🏳️‍🌈 Pride Flag API</title>
       </Head>
-      <ReactMarkdown source={Homepage} />
+      <ReactMarkdown children={Homepage} />
       <Container>
         <ProgressFlag />
       </Container>
