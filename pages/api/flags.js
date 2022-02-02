@@ -1,17 +1,10 @@
 import flags from "../../data/flags";
-import Plausible from "plausible-tracker";
+import { trackAPICall } from "../../utils/apiTracker";
 
-const plausible = Plausible({
-  domain: "pride.dev",
-});
-
-const { trackPageview } = Plausible();
 export default (req, res) => {
   const {
     query: { search },
   } = req;
-
-  trackPageview({ url: "/api/flags" });
 
   if (search) {
     res.send(
