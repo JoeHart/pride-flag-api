@@ -1,5 +1,4 @@
 import flags from "../../data/flags";
-import { trackAPICall } from "../../utils/apiTracker";
 
 export default (req, res) => {
   const {
