@@ -31,6 +31,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="preload" href="/fonts.cs" as="style" />
           <link href="/fonts.css" rel="stylesheet" />
           <meta property="og:title" content="🏳️‍🌈 Pride Flag API" />
           <meta
@@ -52,6 +53,8 @@ class MyDocument extends Document {
 
           <meta name="twitter:site" content="@joehart" />
           <meta name="twitter:creator" content="@joehart" />
+          <link href="https://social.lol/@joehart" rel="me" />
+
           {this.props.styleTags}
         </Head>
         <body>
