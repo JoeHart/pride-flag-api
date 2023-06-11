@@ -32,17 +32,20 @@ export default function SiteHeader({ id, name, svgBase64, year, colors }) {
     <header>
       <Title>
         <Link href="/">
-          <a>🏳️‍🌈 Pride Flag API</a>
+          🏳️‍🌈 Pride Flag API
         </Link>
       </Title>
       <nav>
         <NavList>
           <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
             <a href="https://github.com/JoeHart/pride-flag-api">Github Repo</a>
           </li>
           <li>
             <Link href="/flags">
-              <a>Browse Flags</a>
+              Browse Flags
             </Link>
           </li>
         </NavList>
