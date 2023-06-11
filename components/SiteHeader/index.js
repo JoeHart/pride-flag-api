@@ -1,18 +1,21 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
-
+import PrideFlag from "../../data/flags/svg/progressPride_2018.svg"
+import Image from 'next/image';
 const Title = styled.h1`
-  font-size: 8em;
+  font-size: 7em;
   font-family: Gilbert;
   margin: 0;
 
   @media only screen and (max-width: 70em) {
     font-size: 12vw;
   }
+
   & a:after {
     display: none;
   }
+
 `;
 
 const NavList = styled.ul`
@@ -27,12 +30,17 @@ const NavList = styled.ul`
   }
 `;
 
+const Flag = styled(PrideFlag)`
+ margin-right: 0.5ch;
+`
+
 export default function SiteHeader({ id, name, svgBase64, year, colors }) {
   return (
     <header>
       <Title>
         <Link href="/">
-          🏳️‍🌈 Pride Flag API
+          <Flag width="1.2em" height="auto" />
+          Pride Flag API
         </Link>
       </Title>
       <nav>

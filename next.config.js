@@ -4,10 +4,29 @@ module.exports = {
       test: /\.md$/,
       use: "raw-loader",
     });
+
     config.module.rules.push({
-      test: /\.svg$/,
-      loader: "svg-inline-loader",
-    });
+      test: /\.svg$/i,
+      issuer: /\.[jt]sx?$/,
+      use: [{
+        loader: '@svgr/webpack',
+        options: {
+          svgoConfig: {
+            plugins: [
+              {
+                name: 'preset-default',
+                params: {
+                  overrides: {
+                    removeViewBox: false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }],
+    })
+
     return config;
   },
 };
