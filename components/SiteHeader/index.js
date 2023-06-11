@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
-import PrideFlag from "../../data/flags/svg/progressPride_2018.svg"
-import Image from 'next/image';
+import PrideFlag from "../../data/flags/svg/progressPride_2018.svg?component"
+
 const Title = styled.h1`
   font-size: 7em;
   font-family: Gilbert;

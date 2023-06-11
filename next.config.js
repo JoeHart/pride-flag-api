@@ -7,6 +7,7 @@ module.exports = {
 
     config.module.rules.push({
       test: /\.svg$/i,
+      resourceQuery: /component/,
       issuer: /\.[jt]sx?$/,
       use: [{
         loader: '@svgr/webpack',
@@ -26,6 +27,13 @@ module.exports = {
         }
       }],
     })
+
+    config.module.rules.push({
+      test: /\.svg$/,
+      resourceQuery: { not: /component/ }, // exclude if *.svg?component
+      issuer: /\.[jt]sx?$/,
+      loader: "svg-inline-loader",
+    });
 
     return config;
   },
