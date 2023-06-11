@@ -31,7 +31,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link rel="preload" href="/fonts.cs" as="style" />
+          <link rel="preload" href="/fonts.css" as="style" />
           <link href="/fonts.css" rel="stylesheet" />
           <meta property="og:title" content="🏳️‍🌈 Pride Flag API" />
           <meta

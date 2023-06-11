@@ -38,6 +38,8 @@ export default function SiteHeader({ id, name, svgBase64, year, colors }) {
   return (
     <header>
       <Title>
+        <model interactive="true" src="prideflaganimated.usdz" >
+        </model>
         <Link href="/">
           <Flag width="1.2em" height="auto" />
           Pride Flag API
