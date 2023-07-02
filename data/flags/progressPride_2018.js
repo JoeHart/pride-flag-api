@@ -3,7 +3,7 @@ import svg from "./svg/progressPride_2018.svg";
 const progressPride_2018 = {
   name: "Progress Pride",
   id: "progressPride_2018",
-  year: "2017",
+  year: "2018",
   colors: [
     {
       name: "white",
