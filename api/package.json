@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "author": "Joe Hart <joe@joehart.dev>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

@@ -1,9 +1,8 @@
 {
-  "name": "pride-flag-color-api",
+  "name": "webapp",
   "version": "1.0.0",
   "author": "Joe Hart <joe@joehart.dev>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -33,9 +32,5 @@
     "@svgr/webpack": "^8.0.1",
     "babel-plugin-styled-components": "^2.0.2",
     "jest": "^29.5.0"
-  },
-  "workspaces": [
-    "webapp",
-    "api"
-  ]
+  }
 }
