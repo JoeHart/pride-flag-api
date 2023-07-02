@@ -5,6 +5,7 @@ import bisexual_1998 from "./bisexual_1998";
 import genderfluid_2012 from "./genderfluid_2012";
 import genderqueer_2011 from "./genderqueer_2011";
 import intersex_2013 from "./intersex_2013";
+import intersexInclusive_2021 from "./intersexInclusive_2021";
 import labrysLesbian_1999 from "./labrysLesbian_1999";
 import lesbian_2010 from "./lesbian_2010";
 import lesbian_2018 from "./lesbian_2018";
@@ -29,6 +30,7 @@ const flags = [
   genderfluid_2012,
   genderqueer_2011,
   intersex_2013,
+  intersexInclusive_2021,
   labrysLesbian_1999,
   lesbian_2010,
   lesbian_2018,
