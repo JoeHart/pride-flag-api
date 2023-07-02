@@ -1,9 +1,9 @@
-import svg from "./svg/progressPride_2018.svg";
+import svg from "./svg/intersexInclusive_2021.svg";
 
-const progressPride_2018 = {
-  name: "Progress Pride",
-  id: "progressPride_2018",
-  year: "2018",
+const intersexInclusive_2021 = {
+  name: "Intersex Inclusive Pride",
+  id: "intersexInclusive_2021",
+  year: "2021",
   colors: [
     {
       name: "white",
@@ -82,8 +82,22 @@ const progressPride_2018 = {
       g: 16,
       b: 134,
     },
+    {
+      name: "purple",
+      hexCode: "#7902aa",
+      r: 121,
+      g: 2,
+      b: 170,
+    },
+    {
+      name: "yellow",
+      hexCode: "#FFD800",
+      r: 255,
+      g: 216,
+      b: 0,
+    },
   ],
   svg,
 };
 
-export default progressPride_2018;
+export default intersexInclusive_2021;

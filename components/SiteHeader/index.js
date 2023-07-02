@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
-import PrideFlag from "../../data/flags/svg/progressPride_2018.svg?component"
+import PrideFlag from "../../data/flags/svg/intersexInclusive_2021.svg?component"
 
 const Title = styled.h1`
   font-size: 7em;
