@@ -36,6 +36,6 @@
   },
   "workspaces": [
     "webapp",
-    "api"
+    "flag-api"
   ]
 }
