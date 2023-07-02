@@ -10,7 +10,7 @@ Feel free to use this API for demos and fun things, I'd avoid using it for anyth
 
 ### GraphQL
 
-Primarily this is meant to be a GraphQL API. Simply fire queries to the following endpoint:
+Primarily this is meant to be a GraphQL API. You can send GraphQL queries from your GraphQL Client to the following endpoint:
 
 ```
 https://pride.dev/api/graphql
