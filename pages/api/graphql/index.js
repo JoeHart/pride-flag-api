@@ -1,6 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startServerAndCreateNextHandler } from '@as-integrations/next';
 import { gql } from 'graphql-tag';
+import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
 
 import * as queryResolvers from "./queryResolvers";
 import base64 from "Base64";
@@ -52,6 +53,7 @@ const server = new ApolloServer({
   introspection: true,
   playground: true,
   cors: true,
+  plugins: [ApolloServerPluginLandingPageLocalDefault]
 });
 
 export default startServerAndCreateNextHandler(server);
