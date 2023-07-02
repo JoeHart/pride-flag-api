@@ -1,4 +1,7 @@
-import { ApolloServer, gql } from "apollo-server-micro";
+import { ApolloServer } from '@apollo/server';
+import { startServerAndCreateNextHandler } from '@as-integrations/next';
+import { gql } from 'graphql-tag';
+
 import * as queryResolvers from "./queryResolvers";
 import base64 from "Base64";
 
@@ -43,13 +46,7 @@ const resolvers = {
   },
 };
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
-
-const apolloServer = new ApolloServer({
+const server = new ApolloServer({
   typeDefs,
   resolvers,
   introspection: true,
@@ -57,13 +54,14 @@ const apolloServer = new ApolloServer({
   cors: true,
 });
 
-const startServer = apolloServer.start();
-
-async function handler(req, res) {
+export default startServerAndCreateNextHandler(server);
 
 
-  await startServer;
+// export default apolloServer.start().then(() => {
+//   const handler = apolloServer.createHandler({ path: "/api/graphql" });
 
-  apolloServer.createHandler({ path: "/api/graphql" })(req, res);
-}
-export default handler;
+//   return cors((req, res) => {
+//     console.log(req.method, req.url, req.base64Data)
+//     return req.method === "OPTIONS" ? send(res, 200, "ok") : handler(req, res);
+//   });
+// });
