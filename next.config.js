@@ -1,4 +1,15 @@
-module.exports = {
+
+const nextConfig = {
+  experimental: {
+    mdxRs: true,
+  },
+}
+
+const withMDX = require('@next/mdx')()
+module.exports = withMDX({
+  experimental: {
+    mdxRs: true,
+  },
   async headers() {
     return [
       {
@@ -51,4 +62,4 @@ module.exports = {
 
     return config;
   },
-};
+});

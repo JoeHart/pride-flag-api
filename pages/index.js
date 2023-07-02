@@ -2,7 +2,7 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import styled from "styled-components";
 import Head from "next/head";
-import Homepage from "../data/content/Homepage.md";
+import Homepage from "../data/content/Homepage.mdx";
 import ProgressFlag from "../components/ProgressFlag";
 
 const Container = styled.div`
@@ -15,7 +15,7 @@ export default function Index() {
       <Head>
         <title>🏳️‍🌈 Pride Flag API</title>
       </Head>
-      <ReactMarkdown children={Homepage} />
+      <Homepage />
       <Container>
         <ProgressFlag />
       </Container>
