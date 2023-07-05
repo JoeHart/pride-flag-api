@@ -1,4 +1,5 @@
 import agender_2014 from "./agender_2014";
+import aroace_2018 from "./aroace_2018";
 import aromantic_2014 from "./aromantic_2014";
 import asexual_2010 from "./asexual_2010";
 import bear_1995 from "./bear_1995";
@@ -26,6 +27,7 @@ import transgender_1999 from "./transgender_1999";
 
 const flags = [
   agender_2014,
+  aroace_2018,
   aromantic_2014,
   asexual_2010,
   bear_1995,
