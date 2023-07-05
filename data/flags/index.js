@@ -22,6 +22,7 @@ import pride_1978_sevenStripes from "./pride_1978_sevenStripes";
 import pride_1979 from "./pride_1979";
 import progressPride_2018 from "./progressPride_2018";
 import southAfricaPride_2010 from "./southAfricaPride_2010";
+import sapphic_2015 from "./sapphic_2015";
 import transgender_1999 from "./transgender_1999";
 
 const flags = [
@@ -48,6 +49,7 @@ const flags = [
   pride_1978_sevenStripes,
   pride_1979,
   progressPride_2018,
+  sapphic_2015,
   southAfricaPride_2010,
   transgender_1999,
 ];
