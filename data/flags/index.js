@@ -23,6 +23,7 @@ import pride_1979 from "./pride_1979";
 import progressPride_2018 from "./progressPride_2018";
 import southAfricaPride_2010 from "./southAfricaPride_2010";
 import transgender_1999 from "./transgender_1999";
+import twink_2009 from "./twink_2009";
 
 const flags = [
   agender_2014,
@@ -50,6 +51,7 @@ const flags = [
   progressPride_2018,
   southAfricaPride_2010,
   transgender_1999,
+  twink_2009,
 ];
 
 export default flags;
