@@ -13,6 +13,7 @@ import lesbian_2018 from "./lesbian_2018";
 import lesbian_2019 from "./lesbian_2019";
 import nonbinary_2014 from "./nonbinary_2014";
 import omnisexual_2015 from "./omnisexual_2015";
+import pangender_2015 from "./pangender_2015";
 import pansexual_2010 from "./pansexual_2010";
 import philadelphiaPride_2017 from "./philadelphiaPride_2017";
 import pinkUnionJack_2009 from "./pinkUnionJack_2009";
@@ -40,6 +41,7 @@ const flags = [
   lesbian_2019,
   nonbinary_2014,
   omnisexual_2015,
+  pangender_2015,
   pansexual_2010,
   philadelphiaPride_2017,
   pinkUnionJack_2009,
