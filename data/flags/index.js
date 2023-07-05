@@ -3,6 +3,7 @@ import aromantic_2014 from "./aromantic_2014";
 import asexual_2010 from "./asexual_2010";
 import bear_1995 from "./bear_1995";
 import bisexual_1998 from "./bisexual_1998";
+import demiboy_2015 from "./demiboy_2015";
 import genderfluid_2012 from "./genderfluid_2012";
 import genderqueer_2011 from "./genderqueer_2011";
 import intersex_2013 from "./intersex_2013";
@@ -30,6 +31,7 @@ const flags = [
   asexual_2010,
   bear_1995,
   bisexual_1998,
+  demiboy_2015,
   genderfluid_2012,
   genderqueer_2011,
   intersex_2013,
