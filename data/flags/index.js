@@ -11,6 +11,7 @@ import labrysLesbian_1999 from "./labrysLesbian_1999";
 import lesbian_2010 from "./lesbian_2010";
 import lesbian_2018 from "./lesbian_2018";
 import lesbian_2019 from "./lesbian_2019";
+import lipstick_lesbian_2010 from "./lipstick_lesbian_2010";
 import nonbinary_2014 from "./nonbinary_2014";
 import omnisexual_2015 from "./omnisexual_2015";
 import pansexual_2010 from "./pansexual_2010";
@@ -38,6 +39,7 @@ const flags = [
   lesbian_2010,
   lesbian_2018,
   lesbian_2019,
+  lipstick_lesbian_2010,
   nonbinary_2014,
   omnisexual_2015,
   pansexual_2010,
