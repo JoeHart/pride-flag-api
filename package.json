@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@apollo/server": "^4.7.5",
+    "@apollo/server": "^4.9.3",
     "@as-integrations/next": "^2.0.1",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
