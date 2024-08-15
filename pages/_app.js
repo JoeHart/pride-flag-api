@@ -4,7 +4,7 @@ import PlausibleProvider from "next-plausible";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <PlausibleProvider domain="pride.dev">
+    <PlausibleProvider domain="pride-flag.dev">
       <div className="page">
         <SiteHeader />
         <Component {...pageProps} />

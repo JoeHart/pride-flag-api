@@ -1,6 +1,6 @@
 # 🏳️‍🌈 Pride Flag API
 
-[GitHub Repo](https://github.com/JoeHart/pride-flag-color-api) [Browse the Flags](https://pride.dev/flags)
+[GitHub Repo](https://github.com/JoeHart/pride-flag-color-api) [Browse the Flags](https://pride-flag.dev/flags)
 
 This is an API to list data about various LGBTQA+ Pride Flags, delivered as JSON by REST or GraphQL. This isn't an exhaustive list, it's just ones I've added for now. If there are any missing let me know or open a Pull Request 😄
 
@@ -13,10 +13,10 @@ Feel free to use this API for demos and fun things, I'd avoid using it for anyth
 Primarily this is meant to be a GraphQL API. You can send GraphQL queries from your GraphQL Client to the following endpoint:
 
 ```
-https://pride.dev/api/graphql
+https://pride-flag.dev/api/graphql
 ```
 
-You can view the schema and play with some queries at the [GraphQL Playground](https://pride.dev/api/graphql).
+You can view the schema and play with some queries at the [GraphQL Playground](https://pride-flag.dev/api/graphql).
 
 Example Query:
 
@@ -78,7 +78,7 @@ Example Response:
 #### Fetch a Flag:
 
 ```
-https://pride.dev/api/flags/${id}
+https://pride-flag.dev/api/flags/${id}
 ```
 
 This will return the JSON object of the flag specified.
@@ -86,7 +86,7 @@ This will return the JSON object of the flag specified.
 Example Request:
 
 ```
-https://pride.dev/api/flags/transgender_1999
+https://pride-flag.dev/api/flags/transgender_1999
 ```
 
 Example Response:
@@ -109,7 +109,7 @@ Example Response:
 #### Fetch a Flag's SVG
 
 ```
-https://pride.dev/api/flags/${id}/SVG
+https://pride-flag.dev/api/flags/${id}/SVG
 ```
 
 This will return the SVG of the flag specified.
@@ -129,7 +129,7 @@ Example Response:
 #### Fetch all flags
 
 ```
-https://pride.dev/api/flags
+https://pride-flag.dev/api/flags
 ```
 
 This will return all flags specified.
@@ -137,7 +137,7 @@ This will return all flags specified.
 #### Search flags
 
 ```
-https://pride.dev/api/flags?search=trans
+https://pride-flag.dev/api/flags?search=trans
 ```
 
 This will return all flags where the name contains that search term.

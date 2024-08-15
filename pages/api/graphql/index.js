@@ -38,7 +38,7 @@ const resolvers = {
   },
   Flag: {
     svgUrl: (parent) => {
-      return `https://pride.dev/api/flags/${parent.id}/SVG`;
+      return `https://pride-flag.dev/api/flags/${parent.id}/SVG`;
     },
     svgBase64: (parent) => {
       const base64Data = base64.btoa(parent.svg);

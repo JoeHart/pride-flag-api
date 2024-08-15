@@ -44,12 +44,12 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://pride.dev/prideflagapi.jpg"
+            content="https://pride-flag.dev/prideflagapi.jpg"
           />
-          <meta property="og:url" content="https://pride.dev" />
+          <meta property="og:url" content="https://pride-flag.dev" />
           <meta name="twitter:card" content="summary_large_image" />
 
-          <meta property="og:site_name" content="Pride dot dev" />
+          <meta property="og:site_name" content="Pride Flag dot dev" />
 
           <meta name="twitter:site" content="@joehart" />
           <meta name="twitter:creator" content="@joehart" />
